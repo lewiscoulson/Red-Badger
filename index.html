@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Red Badger - Coding Challenge</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="app">
+    <h1>Red Badger Coding Challenge</h1>
+    <form>
+      <div>
+        <label for="grid">Grid dimensions</label>
+        <input type="text" id="grid" value="53" />
+      </div>
+      <div>
+        <label for="position-1">Robot 1 Position</label>
+        <input type="text" id="position-1" value="11E" />
+      </div>
+      <div>
+        <label for="input-1">Robot 1 Input</label>
+        <input type="text" id="input-1" value="RFRFRFRF" />
+      </div>
+       <div>
+        <label for="position-2">Robot 2 Position</label>
+        <input type="text" id="position-2" value="32N" />
+      </div>
+      <div>
+        <label for="input-2">Robot 2 Input</label>
+        <input type="text" id="input-2" value="FRRFLLFFRRFLL" />
+      </div>
+       <div>
+        <label for="position-3">Robot 3 Position</label>
+        <input type="text" id="position-3" value="03W" />
+      </div>
+      <div>
+        <label for="input-3">Robot 3 Input</label>
+        <input type="text" id="input-3" value="LLFFFLFLFL" />
+      </div>
+      <button>Run</button>
+    </form>
+    <div class="mars hide"></div>
+    <div class="results hide">
+      <h2>And the results are...</h2>
+      <ul class="output"></ul>
+    </div>
+  </div>
+  <script src="js/jquery.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
